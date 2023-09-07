@@ -109,7 +109,7 @@ public class testing {
 
         HttpResponse<String> httpApiResponse = httpClient.send(httpApiRequest,HttpResponse.BodyHandlers.ofString());
 
-        JSONArray apiResponse = new JSONArray(httpApiResponse);
+        JSONArray apiResponse = new JSONArray(httpApiResponse.body());
 
 
         assert forkGithubFalseCounter == apiResponse.length();
