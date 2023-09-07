@@ -42,3 +42,5 @@
   }
 ]
 ```
+
+Tested app with Postman and Junit4 tests.
