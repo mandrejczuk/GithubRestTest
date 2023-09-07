@@ -12,6 +12,11 @@
   - `Accept: application/json`
   - `Accept: application/xml`
 
+#### Request Example
+  - URL: `http://localhost:8080/api?username=mandrejczuk`
+  - Method: `GET`
+  - Headers:
+  - `Accept: application/json`
 ##### Parameters
 
 - `username`: GitHub username (for JSON response).
